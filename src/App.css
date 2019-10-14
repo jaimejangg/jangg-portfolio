@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
   border-bottom: .5px solid #40474E;
-  width: 100vw;
+  width: 100%;
   height: 110px;
 }
 
@@ -28,7 +28,7 @@ div h1 {
 
 .sections-container {
   width: 80%;
-  height: 100vh;
+  height: 100%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -80,7 +80,7 @@ div h1 {
 .text {
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  text-align: initial;
   width: 100%;
   height: 87%;
   font-size: 1.50rem;
@@ -89,6 +89,7 @@ div h1 {
 
 .baby-steps {
   cursor: pointer;
+  width: fit-content;
 }
 
 .baby-steps:hover {
@@ -115,7 +116,7 @@ div h1 {
 
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 30px;
   left: 36px;
@@ -158,4 +159,45 @@ div h1 {
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sections-container {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+  }
+
+  .presentation {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    height: 100%;
+  }
+
+  .section-text-container {
+    width: 96%;
+  }
+
+  .title-text {
+    flex-direction: column;
+    width: 100%;
+    border-bottom: .5px solid #40474E;
+    font-size: 2rem;
+    align-items: center;
+  }
+
+  .text-div {
+    width: 100%;
+  }
+
+  .icons-div {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    text-align: initial;
+  }
+
 }

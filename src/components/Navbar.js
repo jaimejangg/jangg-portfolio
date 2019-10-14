@@ -9,7 +9,7 @@ function Nav() {
         <div>
             <SideBar />
             <div className='nav'>
-                <Link to={ROUTES.LANDING} style={{ textDecoration: 'none', color: '#373a47' }}>
+                <Link to={ROUTES.LANDING} style={{ textDecoration: 'none', color: '#373a47', marginLeft: '50px' }}>
                     <h1>Jaime Jangg</h1>    
                 </Link>    
             </div>
