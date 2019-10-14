@@ -17,6 +17,18 @@ function Presentation() {
                     <div className='text-div'>
                         <h1>My name is Jaime Rueda</h1>
                     </div>
+                    <div className='logo-jangg-container'/>
+                    </div>
+                    <div className='text'>
+                    <p>Im a FullStack Javascript developer specialized in React JS.</p>
+                    <p>
+                        I am a developer passionate about helping communities 
+                        build innovative technology solutions for their problems.
+                        I like to learn the technologies fast but also to dedicate 
+                        them study time to understand them in depth, 
+                        I also like politics and economics, I have a degree in 
+                        international business and I have a specialty in software.
+                    </p>
                     <div className='icons-div'>
                         <a 
                         href='https://github.com/JaimeJangg' 
@@ -51,17 +63,6 @@ function Presentation() {
                         <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>
-                    </div>
-                    <div className='text'>
-                    <p>Im a FullStack Javascript developer specialized in React JS.</p>
-                    <p>
-                        I am a developer passionate about helping communities 
-                        build innovative technology solutions for their problems.
-                        I like to learn the technologies fast but also to dedicate 
-                        them study time to understand them in depth, 
-                        I also like politics and economics, I have a degree in 
-                        international business and I have a specialty in software.
-                    </p>
                     <Link 
                         to={ROUTES.BLOG} 
                         style={{ textDecoration: 'none', color: '#373a47' }}

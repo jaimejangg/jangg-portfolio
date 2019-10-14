@@ -17,7 +17,7 @@ export default props => {
       </a>
 
       <a className="menu-item" href="/pizzas">
-        Jangg
+        Blog
       </a>
     </Menu>
   );

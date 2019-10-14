@@ -62,11 +62,21 @@ div h1 {
   width: 80%;
 }
 
+.logo-jangg-container {
+  background-image: url(./images/logo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #373a47;
+  height: 100%;
+  width: 20%;
+}
+
 .icons-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 20%;
+  width: 15%;
 }
 
 .links {
@@ -194,6 +204,47 @@ div h1 {
   .icons-div {
     width: 50%;
     margin-bottom: 20px;
+  }
+
+  .text {
+    text-align: initial;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .sections-container {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+
+  }
+
+  .presentation {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    height: 100%;
+  }
+
+  .section-text-container {
+    width: 96%;
+  }
+
+  .title-text {
+    width: 100%;
+    border-bottom: .5px solid #40474E;
+    font-size: 2rem;
+    align-items: center;
+  }
+
+  .text-div {
+    width: 100%;
+  }
+
+  .icons-div {
+    width: 35%;
   }
 
   .text {
