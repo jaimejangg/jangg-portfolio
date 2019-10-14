@@ -1,7 +1,9 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import * as ROUTES from '../routes/routes';
+
+import BabySteps from './BabySteps';
 
 export default props => {
   return (
